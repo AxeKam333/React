@@ -84,7 +84,7 @@ function App() {
                     {weatherData.daily.temperature2mMin[i].toFixed(1)}°-
                     {weatherData.daily.temperature2mMax[i].toFixed(1)}°
                   </h2>
-                  {pngUrl && <img src={pngUrl}></img>}
+                  {pngUrl && <img src={pngUrl} className="image"></img>}
                   <p>{title}</p>
                 </div>
               );
